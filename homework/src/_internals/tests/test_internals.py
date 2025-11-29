@@ -1,6 +1,7 @@
 import sys
 
 from ...wordcount import parse_args
+from ..._internals.read_all_lines import read_all_lines
 
 
 def test_parse_args():
